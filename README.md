@@ -21,7 +21,8 @@ Time spent: **3** hours spent in total
 - [x] Clicking the next button displays a random new card  
 
 GIF created with ScreenToGif
-![]()
+![](https://github.com/Fobat76/Flashcards/blob/main/Pokemon-flashcard.gif)
+![](https://github.com/Fobat76/Flashcards/blob/main/Pokemon-flashcard-reduced.gif)
 
 ### Describe any challenges encountered while building the app.
 - CSS 
