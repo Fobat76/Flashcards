@@ -1,0 +1,41 @@
+header{
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 50px;
+}
+
+.Flashcard {
+  border-radius: 20px;
+  background-color: #696969;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.Flashcard-Img{
+  width: 40%;
+  height: auto;
+}
+
+
+.Flashcard-buttons {
+  justify-content: center; 
+  margin-top: 20px;
+  width: 100%; 
+}
+
+.Flashcard-Buttons>button {
+  border: #282c34;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: white;
+  color:black;
+}
