@@ -3,18 +3,14 @@ import { useState } from 'react';
 export default function Flashcards({ data }) {
   const [index, setIndex] = useState(0);
   const [show, setShow] = useState(false);
-    function Next() {
-        if (show) {
-            if (index === data.length - 1) {
-              setIndex(0); 
-            } else {
-              setIndex(index + 1);
-            }
-            setShow(false);
-          } else {
-            setShow(true);
-          }
+  function Next() {
+    if (show) {
+        setIndex(Math.floor(Math.random() * data.length));
+        setShow(false);
+    } else {
+        setShow(true);
     }
+}
     function Previous() {
         if (index === 0) {
             setIndex(data.length - 1);
@@ -36,6 +32,7 @@ export default function Flashcards({ data }) {
     <div className='Flashcard-Buttons'>
         <button onClick={Previous}>Previous</button>
         <button onClick={Next}>{show ? 'Next' : 'Show'}</button>
+        <h1>Pages {index}</h1>
     </div>
     </> 
   );
