@@ -14,8 +14,7 @@ Time spent: **3** hours spent in total
 - A back button displayed on the card can be used to return to the previous card in a set sequence
 = A next button displayed on the card can be used to navigate to the next card in a set sequence
 GIF created with ScreenToGif
-![]()
-![]()
+![](https://github.com/Fobat76/Flashcards/blob/main/Flashcard-demo.gif)
 
 ### Describe any challenges encountered while building the app.
 - Backend edge case
