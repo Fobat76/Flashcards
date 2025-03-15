@@ -12,8 +12,10 @@ Time spent: **3** hours spent in total
 - Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect
 [x] Moving Multiple Ways in the Card List
 - A back button displayed on the card can be used to return to the previous card in a set sequence
-= A next button displayed on the card can be used to navigate to the next card in a set sequence
-GIF created with ScreenToGif
+- A next button displayed on the card can be used to navigate to the next card in a set sequence
+
+
+## GIF created with ScreenToGif
 ![](https://github.com/Fobat76/Flashcards/blob/main/Flashcard-demo.gif)
 
 ### Describe any challenges encountered while building the app.
