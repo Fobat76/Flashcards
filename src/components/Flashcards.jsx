@@ -67,7 +67,7 @@ export default function Flashcards({ data }) {
         <button onClick={Show}>Show</button>
         <button onClick={Next}>Next</button>
         <button onClick={Shuffle}>Shuffle</button>
-        <input type="text" onChange={handleInputChange}></input>
+        <input type="text" onChange={handleInputChange} value={inputValue}></input>
         <button onClick={Submit}>Submit</button>
     </div>
     </> 
